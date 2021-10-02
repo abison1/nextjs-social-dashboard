@@ -2,7 +2,7 @@ Social media dashboard built during my NextJS Crash Course series on [YouTube](h
 
 ## Usage
 
-1. `git clone https://github.com/bjcarlson42/nextjs-social-dashboard.git`
+1. `git clone https://github.com/abison1/nextjs-social-dashboard`
 2. edit `.env` to have your api keys
 3. `yarn`
 4. `yarn dev`
