@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Terminal</title>
+		<link rel="shortcut icon" type="image/png" href="./terminal.png" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="main">
+			<div class="terminal">
+				<div class="terminal-bar dark-mode">
+					<div class="icon-btn close"></div>
+					<div class="icon-btn max"></div>
+					<div class="icon-btn min"></div>
+				</div>
+				<div
+					class="terminal-window primary-bg"
+					onclick="document.getElementById('dummyKeyboard').focus();"
+				>
+					<div class="terminal-output" id="terminalOutput">
+						<div class="terminal-line"></div>
+					</div>
+					<div class="terminal-line">
+						<span class="success">➜</span>
+						<span class="directory">~</span>
+						<span class="user-input" id="userInput"></span>
+						<input type="text" id="dummyKeyboard" class="dummy-keyboard" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./term.js"></script>
+	</body>
+</html>
